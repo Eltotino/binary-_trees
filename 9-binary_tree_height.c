@@ -1,8 +1,10 @@
 #include "binary_trees.h"
+
 /**
 * max - defines the max between two elements
 *@left: left side of the tree
 *@right: right side of the tree
+*Return: size
 */
 size_t max(size_t left, size_t right)
 {
@@ -20,6 +22,7 @@ size_t max(size_t left, size_t right)
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t tleft, tright;
+
 	if (!tree)
 		return (0);
 
