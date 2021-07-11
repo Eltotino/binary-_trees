@@ -3,7 +3,7 @@
 /**
 * tree_depth - find depth of tree
 * @tree: pointer to root node
-* 
+*
 * Return: depth of tree
 */
 int tree_depth(const binary_tree_t *tree)
@@ -19,10 +19,10 @@ int tree_depth(const binary_tree_t *tree)
 }
 /**
  * perfect - check the tree
- * @tree - pointer to root node
- * @depth - depth of tree
+ * @tree: pointer to root node
+ * @depth: depth of tree
  * @level: different level of tree
- * 
+ *
  * Return: 1 if perfect or 0 if not
  */
 int perfect(const binary_tree_t *tree, int depth, int level)
